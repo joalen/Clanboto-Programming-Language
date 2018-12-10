@@ -452,6 +452,34 @@ class Main {
     }
     break; 
   }
+    for(String formatterdefinecommand = "formatdefiner =-prerequisite(.dll1tablePartition);"; input1.equals(formatterdefinecommand);) { 
+      System.out.println("Welcome to QWERTY beta Edition formatter for our upcoming project QWERTY (Formatting define Command)"); 
+      System.out.println(); 
+      Thread.sleep(2000); 
+      System.out.println("Type in a variable (put variable for nothing)"); 
+      String formatterdefinequestion1 = scan.next(); 
+      System.out.println("Enter first parameter"); 
+      String formatterdefinequestion2 = scan.next(); 
+      System.out.println("How more parameters to include?); 
+      int formatterdefinequestion3 = scan.nextInt(); 
+      if(formatterdefinequestion3.equals("2+)) { 
+         System.out.println("Enter Parameter two");
+         String formatterdefinequestion4 = scan.next(); 
+         System.out.println("Please type (function/break/continue/stop/start/refresh)"); 
+         String formatterdefinequestion5 = scan.next(): 
+         System.out.println("Please type in last parameter"); 
+         String formatterdefinequestion6 = scan.next(); 
+         System.out.println("Creating new function (define)"); 
+         System.out.println("defineFunction = new defineBlock.obj(" + formatterdefinequestion1 + ") {" + 
+                            "Parameters(" + formatterdefinequestion2 + formatterdefinequestion4 + formatterdefinequestion5 + 
+                            formatterdefinequestion5 + ") };"); 
+       }else{
+         System.out.println("Creating new function (define)"); 
+         System.out.println("defineFunction = new defineBlock.obj(" + formatterdefinequestion1 + ") {" + 
+                            "Parameters(" + formatterdefinequestion2 + ") };");  
+       } 
+        break; 
+     } 
   for(String mathAbsolute = "math.function(abs)"; input1.equals(mathAbsolute);) { 
     System.out.println("Do you want to return a value or an equation?"); 
     String answerForMath = scan.next(); 
@@ -507,6 +535,7 @@ class Main {
      System.out.println("num.function(median)"); 
      System.out.println("num.function(mode)"); 
      System.out.println("num.function(alg.slopeIntForm)"); 
+     System.out.println("formatdefiner =-prerequisite(.dll1tablePartition);"); 
      System.out.println("changelog"); 
      break; 
    }
